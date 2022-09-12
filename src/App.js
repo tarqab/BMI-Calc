@@ -32,7 +32,7 @@ function App() {
     if (weight === 0 || height === 0) {
       alert("please enter true value !")
     }
-    else {
+    else { /** heloo */
       let bmi = ((weight / (height * height)) * 10000)
       setBmi(bmi.toFixed(1));
     }
