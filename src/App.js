@@ -4,8 +4,10 @@ import "./index.css"
 // h-screen w-screen p-4 bg-gradient-to-r from-cyan-500 to-blue-500
 
 const style = {
-  main: `w-screen h-screen bg-gradient-to-r from-cyan-500 to-blue-500`,
-  container: `w-[600px] flex flex-col items-center bg-cyan-900 w-[500px] mx-auto my-60 rounded-md shadow-xl  p-4 text-xl`,
+  main: `w-screen  pb-60 bg-gradient-to-r from-cyan-500 to-blue-500`,
+  container: `w-[600px] flex flex-col items-center bg-cyan-900 
+  w-[500px] mx-auto my-60 rounded-md shadow-xl  p-4 text-xl 
+  sm:w-[400px] xs:w-[380px]`,
   tittle: `text-4xl text-white text-center font-bold`,
   weight: `rounded-2xl italic w-full h-14 mt-7 bg-transparent border-2 border-amber-300	p-2`,
   height: `rounded-2xl italic w-full h-14 mt-14 bg-transparent border-2 border-amber-300 p-2`,
